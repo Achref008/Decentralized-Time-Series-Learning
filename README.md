@@ -61,8 +61,10 @@ The project is designed to work directly with:
 data/blower_energy_consumption.csv
 
 This dataset must contain at least these columns:
-date | time | consumption
 
+```text
+date | time | consumption
+```
 ---
 
 Your code will:
