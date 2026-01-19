@@ -138,8 +138,6 @@ pip install -r requirements.txt
 - tqdm
 ```
 
----
-
 ### 2) Add your dataset
 
 Place your CSV file in:
