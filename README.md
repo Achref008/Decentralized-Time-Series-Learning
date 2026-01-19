@@ -1,9 +1,9 @@
 # Robust Decentralized Time-Series Learning  
 
-This repository implements a **decentralized federated learning (DFL)** approach for **collaborative time-series forecasting** on distributed nodes.
-Each node trains a local TensorFlow model to predict blower energy consumption and periodically **exchanges model weights** with neighboring nodes in a **peer-to-peer (P2P) network using ZeroMQ**.  
-There is **no central server** all learning is fully decentralized.
-To improve reliability in distributed environments, the system uses a **median-based Byzantine Fault Tolerant (BFT) aggregation rule**, making it resilient to faulty, noisy, or misbehaving nodes.
+This repository implements a **decentralized federated learning (DFL)** approach for **collaborative time-series** forecasting, where multiple nodes run in parallel as lightweight threads on the same machine.
+Each node trains its own TensorFlow model to predict blower energy consumption and regularly shares its model weights with other nodes through a **peer-to-peer (P2P)** network based on **ZeroMQ**.
+The system operates without a **central server**, meaning all learning and coordination happen directly between nodes.
+To make the training process more reliable, the system applies a **median-based Byzantine Fault Tolerant (BFT)** aggregation rule, which helps protect the model against faulty, noisy, or abnormal updates from individual nodes.
 
 ---
 
@@ -134,7 +134,7 @@ This will:
 - Plot validation loss per node
 
 Note:
-In this version, nodes run as threads in one process (simulation).
+In this version, nodes run as threads in one process as a simulation.
 To run on multiple machines, launch main.py separately per node and configure real IPs/ports.
 
 ---
