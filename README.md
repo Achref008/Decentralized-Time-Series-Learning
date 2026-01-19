@@ -119,18 +119,10 @@ pip install -r requirements.txt
 - tqdm
 ```
 
----
-
-### 2) Add your dataset
-
-Place your CSV file in:
-
-data/blower_energy_consumption.csv
-(You can also edit DATA_PATH in src/config.py if needed)
 
 ---
 
-### 3) Run (local multi-node simulation)
+### 2) Run (local multi-node simulation)
 python src/main.py
 
 This will:
