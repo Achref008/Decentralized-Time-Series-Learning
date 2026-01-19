@@ -115,35 +115,16 @@ pip install -r requirements.txt
 - pyzmq
 - matplotlib
 - tqdm
+```
 
 ---
-
-## Getting started
-
-### 1) Install dependencies
-
-
-```bash
-pip install -r requirements.txt
-(If you don’t have one yet, your requirements should include at least:)
-
-- nginx
-- Copy code
-- tensorflow
-- numpy
-- pandas
-- scikit-learn
-- pyzmq
-- matplotlib
-- tqdm
-```
 
 ### 2) Add your dataset
 
 Place your CSV file in:
 
 data/blower_energy_consumption.csv
-(You can also edit DATA_PATH in src/config.py if needed.)
+(You can also edit DATA_PATH in src/config.py if needed)
 
 ---
 
