@@ -118,30 +118,6 @@ pip install -r requirements.txt
 
 ---
 
-## Repository structure
-
-```text
-EdgeDFL/
-│
-├── data/
-│   └── blower_energy_consumption.csv
-│
-├── src/
-│   ├── main.py               # Entry point
-│   ├── config.py             # Hyperparameters & network topology
-│   ├── data_loader.py        # CSV loading & cleaning
-│   ├── preprocessing.py      # Sliding windows & scaling
-│   ├── model.py              # TensorFlow neural network
-│   ├── node.py               # Decentralized node logic
-│   ├── communication.py      # ZeroMQ messaging
-│   ├── consensus.py          # Byzantine aggregation
-│   └── visualization.py      # Plots & diagnostics
-│
-└── README.md
-```
-
----
-
 ## Getting started
 
 ### 1) Install dependencies
