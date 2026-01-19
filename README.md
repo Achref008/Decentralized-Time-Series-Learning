@@ -7,7 +7,7 @@ To improve reliability in distributed environments, the system uses a **median-b
 
 ---
 
-## Why this project?
+## Motivation
 
 Real-world distributed AI systems often face:
 
@@ -25,7 +25,7 @@ This project demonstrates how decentralized, peer-to-peer learning can:
 
 ---
 
-## How it works (one learning loop)
+## System Workflow
 
 Each node repeatedly executes the following steps:
 
