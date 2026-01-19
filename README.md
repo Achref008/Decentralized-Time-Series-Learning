@@ -2,7 +2,7 @@
 
 This repository implements a **decentralized federated learning (DFL)** approach for **collaborative time-series forecasting** on distributed nodes.
 Each node trains a local TensorFlow model to predict blower energy consumption and periodically **exchanges model weights** with neighboring nodes in a **peer-to-peer (P2P) network using ZeroMQ**.  
-There is **no central server** — all learning is fully decentralized.
+There is **no central server** all learning is fully decentralized.
 To improve reliability in distributed environments, the system uses a **median-based Byzantine Fault Tolerant (BFT) aggregation rule**, making it resilient to faulty, noisy, or misbehaving nodes.
 
 ---
