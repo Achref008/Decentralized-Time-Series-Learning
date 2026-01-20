@@ -84,6 +84,10 @@ EdgeDFL/
 │   └── blower_energy_consumption.csv
 │
 ├── src/
+│   └── blower_energy_consumption.csv
+│
+│ 
+├── src/
 │   ├── main.py               # Entry point
 │   ├── config.py             # Hyperparameters & network topology
 │   ├── data_loader.py        # CSV loading & cleaning
