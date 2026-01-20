@@ -1,1 +1,52 @@
+# --- Python Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
+# --- Virtual Environments ---
+venv/
+.venv/
+ENV/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Project Specific Artifacts ---
+# Ignore the logs generated during decentralized training
+logs/
+*.log
+
+# Ignore the data content (keep the folder structure if desired)
+# Recruiters don't want to download 100MB of CSVs
+data/*.csv
+data/*.xlsx
+
+# TensorFlow/Keras Checkpoints
+*.h5
+*.keras
+checkpoints/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
