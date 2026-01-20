@@ -83,8 +83,8 @@ EdgeDFL/
 ├── data/
 │   └── blower_energy_consumption.csv
 │
-├── src/
-│   └── blower_energy_consumption.csv
+├── Images/
+│   └── Training Loss.png
 │
 │ 
 ├── src/
