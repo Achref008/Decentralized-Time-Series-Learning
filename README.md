@@ -96,6 +96,8 @@ EdgeDFL/
 │   ├── communication.py      # ZeroMQ messaging
 │   ├── consensus.py          # Byzantine aggregation
 │   └── visualization.py      # Plots & diagnostics
+│ 
+├── LICENSE
 │
 └── README.md
 ```
