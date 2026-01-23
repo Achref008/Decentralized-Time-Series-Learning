@@ -41,6 +41,7 @@ This confirms that the system operates under **non-IID conditions**, making the 
 Successful convergence in the previous plot demonstrates that the decentralized aggregation mechanism effectively handles statistical heterogeneity.
 
 ---
+
 **Experimental Configuration**
 - **Nodes**: 5 simulated decentralized peers (each executed as an independent thread)
 - **Architecture**: Feed-forward neural network (TensorFlow/Keras)
@@ -51,8 +52,7 @@ Successful convergence in the previous plot demonstrates that the decentralized 
 - **Aggregation**: Robust median-based consensus (Byzantine-tolerant)
 - **Setting**: Fully decentralized logic with no central coordinator, simulated on a single machine
 
-Big picture
-
+**Big picture**
 - **The distribution plot highlights the challenge**: each node trains on statistically different (non-IID) local data partitions.
 - **The loss plot demonstrates the outcome**: repeated communication rounds enable stable collaborative convergence across all peers.
 
