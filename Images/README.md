@@ -1,14 +1,10 @@
-To perfectly align your GitHub with the specific data you've generated, here is the updated **Experimental Results** section for your README. This version uses the exact labels, node counts, and trends visible in your two screenshots.
-
----
-
 # Experimental Results
 
 The following results demonstrate the performance of the **Decentralized Cooperative Control Learning (DCCL)** system across a simulated network of control nodes.
 
 ## 1. Multi-Node Convergence (200 Communication Rounds)
 
-![Training and Validation Loss](https://github.com/Achref008/Decentralized-Cooperative-Control-Learning-DCCL-/blob/main/outputs/Local%20Training%20Loss%20per%20Node%20in%20Decentralized%20Learning.PNG)
+![Training and Validation Loss]([https://github.com/Achref008/Decentralized-Cooperative-Control-Learning-DCCL-/blob/main/outputs/Local%20Training%20Loss%20per%20Node%20in%20Decentralized%20Learning.PNG)
 *This figure tracks the learning progress of 5 independent nodes (Node 0 to Node 4) over 200 decentralized synchronization rounds.*
 
 **Observations:**
@@ -22,7 +18,7 @@ Note: **The Line Chart** proves the **System Stability**: It shows that your dec
 
 ## 2. Final Validation MSE Comparison
 
-![MSE Comparison](https://github.com/Achref008/Decentralized-Cooperative-Control-Learning-DCCL-/blob/main/outputs/node_mse_comparison.png)
+![Energy Distribution](https://github.com/Achref008/DTSL-Decentralized-Time-Series-Learning/blob/main/Images/Energy%20distribution%20across%20nodes.png)
 *This bar chart compares the final Mean Validation MSE (Mean Squared Error) across 4 key nodes in the network.*
 
 **Observations:**
