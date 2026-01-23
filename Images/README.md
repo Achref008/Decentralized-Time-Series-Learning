@@ -1,6 +1,7 @@
 # Experimental Results
 
-The following experiments evaluate the behavior of the fully decentralized multi-node learning system under realistic conditions, including non-IID data splits and independent local training. All results are obtained from 5 cooperative nodes (Node 0–4) communicating through peer-to-peer aggregation without any central server.
+The following experiments evaluate a **simulated decentralized learning environment** that mimics multi-node collaboration under **non-IID data** splits and independent local training. **Five peers (Node 0–4)** are executed as **parallel threads**, each maintaining its own model and interacting only through peer-to-peer aggregation, without any central coordinator.
+
 ## 1. Training & Validation Loss Across Nodes (200 communication rounds)
 
 ![Training and Validation Loss](https://github.com/Achref008/DTSL-Decentralized-Time-Series-Learning/blob/main/Images/Training%20Loss.png)
