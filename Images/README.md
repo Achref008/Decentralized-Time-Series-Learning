@@ -42,7 +42,7 @@ Successful convergence in the previous plot demonstrates that the decentralized 
 
 ---
 
-**Experimental Configuration**
+## 3. **Experimental Configuration**
 - **Nodes**: 5 simulated decentralized peers (each executed as an independent thread)
 - **Architecture**: Feed-forward neural network (TensorFlow/Keras)
 - **Optimizer**: Adam
