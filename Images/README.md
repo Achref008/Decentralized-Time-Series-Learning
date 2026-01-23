@@ -4,7 +4,7 @@ The following results demonstrate the performance of the **Decentralized Coopera
 
 ## 1. Multi-Node Convergence (200 Communication Rounds)
 
-![Training and Validation Loss]([https://github.com/Achref008/Decentralized-Cooperative-Control-Learning-DCCL-/blob/main/outputs/Local%20Training%20Loss%20per%20Node%20in%20Decentralized%20Learning.PNG)
+![Training and Validation Loss](https://github.com/Achref008/DTSL-Decentralized-Time-Series-Learning/blob/main/Images/Training%20Loss.png)
 *This figure tracks the learning progress of 5 independent nodes (Node 0 to Node 4) over 200 decentralized synchronization rounds.*
 
 **Observations:**
